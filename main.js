@@ -50,8 +50,8 @@ let facultetInput = document.querySelector('#XMLfacultet');
 let courceInput = document.querySelector('#XMLcource');
 let groupSelect = document.querySelector('#XMLgroup');
 let nameSelect = document.querySelector('#XMLname');
-let xml = getXMLDocument('source/students.xml');
-let groups = xml.getElementsByTagName('group');
+let xml = getXMLDocument("source/students.xml");
+let groups = xml.getElementsByTagName("group");
 let table = document.querySelector('.exercise10 .task1 .table');
 
 function fillGroups(){
